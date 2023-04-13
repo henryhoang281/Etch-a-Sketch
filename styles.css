@@ -1,0 +1,30 @@
+.board {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: solid 1px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    padding-top: 20px;
+}
+
+.black-button {
+    background-color: black;
+    color: white;
+}
+
+.erase-button {
+    background-color: white;
+}
+
+.multi-color-button {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+    color: black;
+}
